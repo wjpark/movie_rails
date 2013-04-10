@@ -1,0 +1,11 @@
+<dl>
+	<h1>Which one are you looking for?</h1>
+	<% @results["Search"].each do |movies| %>
+	<dt>
+		<a href="/search/<%= movies["imdbID"] %>"><%= movies["Title"] %></a>
+	</dt>
+	<dd><%= movies["Year"] %></dd>
+	<% end %>
+</dl>
+
+

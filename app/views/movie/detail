@@ -1,0 +1,4 @@
+<img src="<%= @detail["Poster"] %>">
+<%= @detail["Title"] %>
+<%= @detail["Year"] %>
+<%= @detail["Plot"] %>
